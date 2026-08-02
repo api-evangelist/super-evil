@@ -1,23 +1,79 @@
 aid: super-evil
 name: Super Evil
-description: Super Evil is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Super Evil (Super Evil Megacorp) is an award-winning independent video game
+  studio building shared, cross-platform gaming experiences that push creative
+  and technical boundaries. The studio is best known for the MOBA Vainglory and
+  the shooter Catalyst Black, and has shipped licensed titles including TMNT:
+  Splintered Fate and a Rebel Moon game (Blood Line). Surfaced as a portfolio
+  company of General Catalyst and added to the API Evangelist network. As of this
+  enrichment pass the studio publishes only a consumer marketing website
+  (Gatsby/Netlify) and social channels; it exposes no public developer API,
+  documentation, SDK, OpenAPI, developer portal, or status page.
 url: https://raw.githubusercontent.com/api-evangelist/super-evil/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a.storyblok.com/f/197775/1920x1080/9cb88d2d90/semc-hero.png/m/1200x627/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-note: >-
+  No developer API surface found. Apex site superevilmegacorp.com returns 200
+  (Gatsby static site on Netlify); all probed .well-known paths, robots.txt and
+  llms.txt return 404; developer/api/docs/developers/status subdomains do not
+  resolve (NXDOMAIN). Confirmed non-API-provider (games studio).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Games
+- Gaming
+- Video Games
+- Game Studio
+- Entertainment
+- Mobile Games
 apis: []
+common:
+- type: Website
+  url: https://superevilmegacorp.com/
+- type: About
+  url: https://superevilmegacorp.com/about/
+- type: Blog
+  url: https://superevilmegacorp.com/news/
+- type: Support
+  url: https://superevilmegacorp.com/contact/
+- type: TermsOfService
+  url: https://superevilmegacorp.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://superevilmegacorp.com/privacy-policy/
+x-social:
+  discord: https://discord.gg/superevilmc
+  twitter: https://twitter.com/superevilmegaco
+  facebook: https://www.facebook.com/SuperEvilMegacorp/
+  linkedin: https://www.linkedin.com/company/super-evil-megacorp/
+  tiktok: https://www.tiktok.com/@super.evil.megacorp
+  youtube: https://www.youtube.com/@Super-Evil-Megacorp
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
