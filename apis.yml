@@ -35,7 +35,7 @@ x-api-surface-note: >-
   (Gatsby static site on Netlify); all probed .well-known paths, robots.txt and
   llms.txt return 404; developer/api/docs/developers/status subdomains do not
   resolve (NXDOMAIN). Confirmed non-API-provider (games studio).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
