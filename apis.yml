@@ -11,6 +11,8 @@ description: >-
   (Gatsby/Netlify) and social channels; it exposes no public developer API,
   documentation, SDK, OpenAPI, developer portal, or status page.
 url: https://raw.githubusercontent.com/api-evangelist/super-evil/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 deliveryModel:
   model: saas
   open_source: false
